@@ -30,7 +30,7 @@ public class FileUpload extends HttpServlet {
 			
 			
 			for(FileItem item:mulFiles) {
-				item.write(new File("/home/vigneshp/"+item.getName()));
+				item.write(new File("your path"+item.getName()));
 			}
 			
 		} catch (Exception e) {
